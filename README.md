@@ -1,2 +1,2 @@
 - This is a final project on modules 2-5
-- The topics covered are html basics, web designs and layouts and cascading style sheets.
+- The topics covered are html basics, web designs and layouts, and cascading style sheets.
