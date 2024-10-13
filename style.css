@@ -1,0 +1,33 @@
+body{
+	background-image: url("C:\\Users\\ADMIN\\OneDrive\\Documents\\School\\=)\\website\\images\\pollution.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+h1 {
+    color: #ced5d1;
+	font-size: 3em;
+	background-color: #103f4a;
+}
+
+h2 {
+	color: #ced5d1;	
+	margin-left: 20px;
+	font-size: 30px;
+}
+
+p {
+  margin-left: 30px;
+  margin-right: 25em;
+  font-size: 24px;
+  align-content: justify;
+  background-color: #103f4a;
+  padding: 5px;
+  color: #ced5d1;
+}
+
+a {
+	margin-left: 30px;
+	font-size: 20px;
+	color: #00d1ff;
+}
