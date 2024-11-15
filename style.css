@@ -4,14 +4,21 @@ body{
 h1 {
     color: #ced5d1;
 	font-size: 3em;
-	background-color: #103f4a;
+	margin-left: 30px;
 }
 
 h2 {
 	color: #ced5d1;	
-	margin-left: 20px;
+	margin-left: 30px;
 	font-size: 30px;
 }
+
+img{
+	float:right;
+	max-width: 50em;
+	height: 20em; 
+}
+
 
 p {
   margin-left: 30px;
@@ -26,8 +33,9 @@ p {
 a {
 	margin-left: 30px;
 	font-size: 20px;
+	color: black;
 }
 
 a:hover {
-	color: #00d1ff;
+	color:#00d1ff;
 }
