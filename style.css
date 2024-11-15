@@ -1,8 +1,5 @@
 body{
-	background-image: url("images\pollution.jpg");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+	background-color: #9bafd9;
 }
 h1 {
     color: #ced5d1;
