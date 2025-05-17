@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+  <title>Tubig para sa Lahat! - Sign Up</title>
+  <link rel="stylesheet" href="project.css" />
+</head>
+<body>
+  <header>
+		<div class = "sprite"></div>
+        <h1>Tubig para sa Lahat!</h1>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Homepage</a></li>
+                <li class="breakdown">
+                    <a href="#">Solutions</a>
+                    <ul class="in">
+                        <li><a href="Support_Org.html">Support Organizations</a></li>
+                        <li><a href="Home_Practices.html">Practices</a></li>
+                    </ul>
+                </li>
+                <li><a href="Organizations.html">Organization</a></li>
+				<li><a href="Quiz.html">Quiz</a></li>
+				<li><a href ="Project_Signup.html">Signup</a></li>
+				<li><a href ="Project_Profile.html">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+	
+	<h2> This is a Nationwide Campaign for Clean and Safe Water Access </h2>
+	
+	<p>
+	In the Philippines, millions of families still live without reliable access to clean water. 
+	The “Tubig sa Lahat!” campaign is a nationwide call to action that is aiming to spotlight under-served 
+	communities, raise awareness, and demand real change.
+	</p>
+
+  <form id="signupForm">
+	  <div class="form-group">
+		<label for="firstName">First Name<span class="required">*</span></label>
+		<input type="text" id="firstName">
+		<span class="error"></span>
+	  </div>
+
+	  <div class="form-group">
+		<label for="lastName">Last Name<span class="required">*</span></label>
+		<input type="text" id="lastName">
+		<span class="error"></span>
+	  </div>
+
+	  <div class="form-group">
+		<label>Sex<span class="required">*</span></label>
+		<div class="radio-group">
+		  <label><input type="radio" name="sex" value="Male"> Male</label>
+		  <label><input type="radio" name="sex" value="Female"> Female</label>
+		  <label><input type="radio" name="sex" value="Prefer not to say"> Prefer not to say</label>
+		</div>
+		<span class="error"></span>
+	  </div>
+
+	  <div class="form-group">
+		<label for="email">Email Address<span class="required">*</span></label>
+		<input type="email" id="email">
+		<span class="error"></span>
+	  </div>
+
+	  <div class="form-group">
+		<label for="password">Password<span class="required">*</span></label>
+		<input type="password" id="password">
+		<span class="error"></span>
+	  </div>
+
+	  <div class="form-group">
+		<label for="contact">Contact Number (optional)</label>
+		<input type="text" id="contact">
+	  </div>
+
+	  <div class="form-group">
+		<label for="reason">Why you're supporting our campaign<span class="required">*</span></label>
+		<textarea id="reason" rows="4"></textarea>
+		<span class="error"></span>
+	  </div>
+
+	  <button type="submit">Join the Clean Water Movement</button>
+	</form>
+
+<script src="project.js"></script>
+</body>
+</html>

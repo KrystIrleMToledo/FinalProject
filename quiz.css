@@ -1,0 +1,155 @@
+body {
+    background: url(images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+/* Header Title */
+header h1 {
+    color: #91baff;
+    font-size: 2em;
+    margin: 0;
+}
+
+/* Sprite Animation */
+div.sprite {
+  background: url('images/water-sprite.png') no-repeat -20px -26px;
+  width: 55px;
+  height: 53px;
+  animation: play 1s steps(1) infinite;
+}
+
+@keyframes play {
+  0%    { background-position: -20px  -26px; }   /* Frame 1 */
+  12.5% { background-position: -82px  -26px; }   /* Frame 2 */
+  25%   { background-position: -143px -26px; }   /* Frame 3 */
+  37.5% { background-position: -205px -26px; }   /* Frame 4 */
+  50%   { background-position: -299px -26px; }   /* Frame 5 */
+  62.5% { background-position: -361px -26px; }   /* Frame 6 */
+  75%   { background-position: -422px -26px; }   /* Frame 7 */
+  87.5% { background-position: -484px -26px; }   /* Frame 8 */
+  100%  { background-position: -20px  -26px; }   /* Loop back */
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #91baff;
+    border-radius: 5px;
+}
+
+/* Dropdown Menu */
+nav ul li.breakdown {
+    position: relative;
+}
+
+nav ul li.breakdown .in {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+nav ul li.breakdown:hover .in {
+    display: block;
+}
+
+nav ul li.breakdown .in a {
+    padding: 10px;
+    text-align: left;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+nav ul li.breakdown .in a:hover {
+    background-color: #91baff;
+}
+
+/* Quiz Container */
+.quiz-container {
+    max-width: 70em;
+    background: white;
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+    margin: 2em auto;
+}
+
+/* Headings */
+h2 {
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+/* Question Block */
+.question {
+    margin: 2em;
+}
+
+/* Buttons */
+button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: #91baff;
+    color: black;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+button:hover {
+    background-color: #7faee3;
+}
+
+/* Result Display */
+.result {
+    margin-top: 20px;
+}
+
+
